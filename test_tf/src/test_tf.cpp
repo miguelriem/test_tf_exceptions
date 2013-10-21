@@ -60,6 +60,8 @@ int main(int argc, char *argv[])
 	ROS_INFO("Got transform after waiting %f secs", (ros::Time::now() - t).toSec());
 
 	//Finally now we can lookup transforms without fearing exceptions
+	//To test for expections you can comment any of the two cycles above and you
+	//should start to see some of the exceptions
 	while (ros::ok())
 	{
 		try
