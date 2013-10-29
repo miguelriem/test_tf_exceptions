@@ -1,0 +1,20 @@
+<package>
+  <description brief="test_pcl_standalone">
+
+     test_pcl_standalone
+
+  </description>
+  <author>mike</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test_pcl_standalone</url>
+
+    <depend package="roscpp"/>
+	<depend package="std_msgs"/>
+	<depend package="sensor_msgs"/>
+    <depend package="pcl_conversions"/>
+    <depend package="pcl"/>
+
+</package>
+
+

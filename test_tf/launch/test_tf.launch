@@ -7,7 +7,10 @@
 	<node pkg="tf" type="static_transform_publisher" name="tf_publisher"
         args="0 -0.02  0 0 0 0  /world1 /world2 30" />  
 
-	<node pkg="test_tf" type="test_tf" name="test_tf" output="screen" required="true">
+    <!--<node pkg="test_tf" type="test_tf" name="test_tf" output="screen" required="true">
+    </node>-->
+
+	<node pkg="test_tf" type="test_tf_py.py" name="test_tf_py" output="screen" required="true">
 	</node>
 
 </launch>
